@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Card img gallery</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /*  
+                pading: 0;
+                margin: 0;
+            */
+        }
+        html{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .card{
+            display: inline-block;
+            margin:5px;
+            width: 300px;
+            border-radius: 5px;
+            box-shadow:4px 8px 8px silver
+        }
+        .card img{ /* คลาสชื่อ Card เฉพาะ img */
+                         /*Topมุมซ้าย  rightมุมขวา  bottonมุมล่างขวา leftมุมล่างซ้าย*/
+          border-radius: 5px 5px 0 0;
+          width: 100%;
+          vertical-align:top; 
+        }
+        .container{
+            text-align: center;
+            padding: 2px 16px;
+            background-color: lightsteelblue;
+            border-radius: 0 0 5px 5px;
+        }
+        .container h4{
+            margin-bottom: 8px;
+            color:red;
+        }
+        .container p{
+            margin-top: 12px;
+            color:greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Gallery Card</h2>
+    <div class="card">
+        <img src="https://picsum.photos/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/28/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/64/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/1/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/10/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/19/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/50/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/90/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/60/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/100/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/id/300/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://picsum.photos/seed/232/250" alt="">
+        <div class="container">
+            <h4><b>Nice Picture</b></h4>
+            <p>A beautiful picture</p>
+        </div>
+    </div>
+    <!--  พิมพ์ .class กด tab Tag div จะมาอัตโนมัติ -->  
+</body>
+</html>

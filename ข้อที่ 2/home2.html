@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding :0;margin:0; height:200vh;}
+
+            .big{width:50%;height:50%;}
+            .small{width:25%;height:25%;}
+            .inside{width:10%;height:10%;}
+
+            .absolute{position:absolute;}
+            .relative{position:relative;}
+            .fixed{position:fixed;}
+
+            .top{top:0}
+            .left{left:0}
+            .right{right:0}
+            .bottom{bottom:0}
+            .center{left:50%;top:50%; transform:translate(-50%,-50%);}
+
+            .red{background: red;}
+            .green{background: green;}
+            .blue{background: blue;}
+            .yellow{background: yellow;}
+            .pink{background: pink;}
+            .white{background: white;}
+    </style>
+</head>
+<body> 
+        <div class="relative fixed white big center">
+            <div class=" absolute inside  red top left"></div>
+            <div class=" absolute inside green top right"></div>
+            <div class=" absolute inside  blue bottom left"></div>
+            <div class=" absolute inside  yellow bottom right"></div>
+            <div class=" absolute  inside pink center"></div>
+        </div>
+            <div class=" absolute small  red top left"></div>
+            <div class=" absolute small green top right"></div>
+            <div class=" absolute small  blue bottom left"></div>
+            <div class=" absolute small  yellow bottom right"></div>
+</body>
+</html>
